@@ -44,8 +44,7 @@ int main() {
 	}
 	
 	if (max > 0) { 	/* there was a line */
-		printf("Longest line length: %d\n", max);
-		printf("Longest line begins with: %s\n", longest);
+		printf("Longest line length: %d\nLongest line begins with: %s\n", max, longest);
 	}
 		
 	
